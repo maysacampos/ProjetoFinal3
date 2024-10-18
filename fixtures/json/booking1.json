@@ -8,12 +8,4 @@
       "checkout" : "2024-10-10"
   },
   "additionalneeds" : "Breakfast"
-};
-{
-  "userId": "12345",
-  "collectionOfIsbns": [
-    {
-      "isbn": "9781449325862"
-    }
-  ]
 }

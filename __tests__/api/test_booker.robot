@@ -1,20 +1,18 @@
-*** Settings ***
-# Bibliotecas e Configurações
-Library    RequestsLibrary
+# *** Variables *** ---> resources/variables.py
+# *** Settings ***  ---> resources/common.resource
+# *** Test Cases *** ---> Continuam no arquivo .robot
+# *** Keywords ***  ---> resources/common.resource
 
-*** Variable *** 
-${isbn}    9781449325862
-
-
-# Casos de Teste
 *** Settings ***
 Library        RequestsLibrary
 Resource       ../../resources/common.resource
 Variables      ../../resources/variables.py
 Suite Setup    Create Token    ${url}    ${userName}    ${password}
 Suite Teardown    Delete User    ${url}    ${userName}    ${password}       
-    
 
+
+*** Variable *** 
+${isbn}    9781449325862
 
 
 *** Test Cases ***

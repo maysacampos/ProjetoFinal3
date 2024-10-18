@@ -1,6 +1,6 @@
+# Settings e Keywords
 *** Settings ***
 Library    RequestsLibrary
-Variables    ../../../../resources/variables.py
 
 
 *** Keywords ***
