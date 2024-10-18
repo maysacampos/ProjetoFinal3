@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.2 on win32)" generated="2024-10-13T16:06:20.825179" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Booker" source="c:\ITERASYS\ProjetoFinal3\__tests__\api\test_booker.robot">
+<kw name="Create Token" owner="common" type="SETUP">
+<msg time="2024-10-13T16:06:21.875578" level="FAIL">Variable '${userName}' not found.</msg>
+<arg>${url}</arg>
+<arg>${userName}</arg>
+<arg>${password}</arg>
+<status status="FAIL" start="2024-10-13T16:06:21.874599" elapsed="0.007976">Variable '${userName}' not found.</status>
+</kw>
+<test id="s1-t1" name="Create Booking" line="18">
+<status status="FAIL" start="2024-10-13T16:06:21.883575" elapsed="0.002000">Parent suite setup failed:
+Variable '${userName}' not found.</status>
+</test>
+<kw name="Delete User" owner="common" type="TEARDOWN">
+<msg time="2024-10-13T16:06:21.895569" level="FAIL">Variable '${userName}' not found.</msg>
+<arg>${url}</arg>
+<arg>${userName}</arg>
+<arg>${password}</arg>
+<status status="FAIL" start="2024-10-13T16:06:21.893569" elapsed="0.002000">Variable '${userName}' not found.</status>
+</kw>
+<status status="FAIL" start="2024-10-13T16:06:20.841169" elapsed="1.055397">Suite setup failed:
+Variable '${userName}' not found.
+
+Also suite teardown failed:
+Variable '${userName}' not found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Booker">Test Booker</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

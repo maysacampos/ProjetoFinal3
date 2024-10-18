@@ -1,0 +1,5 @@
+Utilize a API da Loja de Livros da Tools QA - 
+é mais uma API de treinamento (https://restful-booker.herokuapp.com/apidoc/index.html), 
+crie um projeto para cadastrar e autenticar um usuário e depois realize o cadastro e a consulta de um livro
+
+robot
